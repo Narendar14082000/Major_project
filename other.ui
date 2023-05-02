@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>773</width>
+    <height>303</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Other Factors</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">color: rgb(0, 170, 0);
+font: 75 10pt &quot;MS Shell Dlg 2&quot;;</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>240</y>
+      <width>251</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Store Other Factors in Data base</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_3">
+    <property name="geometry">
+     <rect>
+      <x>739</x>
+      <y>40</y>
+      <width>21</width>
+      <height>33</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>1</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_4">
+    <property name="geometry">
+     <rect>
+      <x>739</x>
+      <y>80</y>
+      <width>21</width>
+      <height>33</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>1</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_5">
+    <property name="geometry">
+     <rect>
+      <x>739</x>
+      <y>120</y>
+      <width>21</width>
+      <height>33</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>1</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_6">
+    <property name="geometry">
+     <rect>
+      <x>739</x>
+      <y>160</y>
+      <width>21</width>
+      <height>33</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>1</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>50</y>
+      <width>641</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>No.of Industrial Units,growing during last 10 financial quarters? (0 for No, 1 for Yes)</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>90</y>
+      <width>711</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Stock Market Standard Indices,growing during last 10 financial quarters? (0 for No, 1 for Yes)</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>170</y>
+      <width>691</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Human Capital Index(HCE),growing during last 10 financial quarters?(0 for No, 1 for Yes)</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>130</y>
+      <width>701</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>No.of Stock Market listings,growing during last 10 financial quarters? (0 for No, 1 for Yes)</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>210</y>
+      <width>671</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Energy Consumption(EC),growing during last 10 financial quarters? (0 for No, 1 for Yes)</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_2">
+    <property name="geometry">
+     <rect>
+      <x>740</x>
+      <y>200</y>
+      <width>20</width>
+      <height>33</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>1</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_9">
+    <property name="geometry">
+     <rect>
+      <x>599</x>
+      <y>0</y>
+      <width>161</width>
+      <height>33</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>000001</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_7">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>0</y>
+      <width>71</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>City ID:</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
